@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <img src="./images/logo.png" height="100">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-nos" class="nav-link">
+                            <i class="bi bi-house-heart-fill me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#descubra" class="nav-link">
+                            <i class="bi bi-balloon-heart-fill me-1"></i>
+                            Descubra mais
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-box2-heart-fill me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-text-fill me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-nos">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="./images/slides/1.jpg" alt="Foto de maquiagem">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./images/slides/2.jpg" alt="Modelo">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./images/slides/3.jpg" alt="Maquiagem">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <div class="span carousel-control-prev-icon"></div>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <div class="span carousel-control-next-icon"></div>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/liptint.png" class="d-block w-100 rounded" alt="Foto de uma boca">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title fs-1">Sobre <span class="text-colored">nós</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sequi esse rerum obcaecati magni error excepturi fuga corporis perferendis ex, quam aut dignissimos harum sint nemo! Dolorem libero totam perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sequi esse rerum obcaecati magni error excepturi fuga corporis perferendis ex, quam aut dignissimos harum sint nemo! Dolorem libero totam perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sequi esse rerum obcaecati magni error excepturi fuga corporis perferendis ex, quam aut dignissimos harum sint nemo! Dolorem libero totam perspiciatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="descubra" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center fs-1">Descubra <span class="text-colored">mais sobre</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/sobre/artesanal.png" alt="Foto de um gloss" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-3">
+                        <i class="bi bi-emoji-heart-eyes-fill"></i>
+                        Artesanal
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, tempore, expedita molestias, minus numquam quibusdam veritatis temporibus error magnam ad soluta unde labore molestiae excepturi? Neque eveniet at inventore magnam?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/sobre/lip.png" alt="Foto de uma boca" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-3">
+                        <i class="bi bi-droplet-fill"></i>
+                        Lip Tint
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, tempore, expedita molestias, minus numquam quibusdam veritatis temporibus error magnam ad soluta unde labore molestiae excepturi? Neque eveniet at inventore magnam?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/sobre/free.png" alt="Logo não testamos em animais" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-3">
+                        <i class="bi bi-hearts"></i>
+                        Cruelty Free
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, tempore, expedita molestias, minus numquam quibusdam veritatis temporibus error magnam ad soluta unde labore molestiae excepturi? Neque eveniet at inventore magnam?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="produtos" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center mb-5 fs-1">
+                Nossos <span class="text-colored">produtos</span>
+            </h2>
+        </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100 rounded" src="./images/produtos/1.jpg" alt="Foto de um gloss de melancia"/>
+                            <h5 class="text-colored fw-bold mt-2">Watermelon</h5>
+                                <p>
+                                    Gloss transparente com glitter holográfico e cheirinho de melancia.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100 rounded" src="./images/produtos/2.jpg" alt="Foto de um gloss de morango"/>
+                                <h5 class="text-colored fw-bold mt-2">Berry Jelly</h5>
+                                <p>
+                                    Gloss vermelho com cheirinho de morango.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100 rounded" src="./images/produtos/3.jpg" alt="Foto de um gloss de chiclete"/>
+                                <h5 class="text-colored fw-bold mt-2">Bubblegum</h5>
+                                <p>
+                                    Gloss rosado com glitter suave e cheirinho de chiclete.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100 rounded" src="./images/produtos/4.jpg" alt="Foto de um gloss de chiclete de uva"/>
+                                <h5 class="text-colored fw-bold mt-2">Grape</h5>
+                                <p>
+                                    Gloss roxo com glitter suave e cheirinho de chiclete de uva.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center fs-1">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3 ">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor"></i>
+                            Endereço
+                        </h3>
+                    </div>
+                    <p>Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

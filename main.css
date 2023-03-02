@@ -1,0 +1,57 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+    background-color: #bf69b0;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #bf69b0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Grand Hotel', cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: rgba(250, 219, 222, 0.7);
+}
+
+.text-colored {
+    color: #bf69b0;
+}
+
+
+#fale-conosco button {
+    background-color: #bf69b0;
+    color: #fff;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
